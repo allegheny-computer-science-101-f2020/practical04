@@ -1,6 +1,6 @@
 # cs101f2020-practical04
 
-## DUE: October 19 by 9:10am
+## DUE: October 26 by 9:10am
 
 [![Actions Status](../../workflows/build/badge.svg)](../../actions)
 
@@ -47,9 +47,9 @@ You should also read Section 4.1, focusing on Code Fragment 4.2 and the text on 
 
 There are several "TODO" markers inside of the provided source code. You should use the source code in Code Fragment 4.2 to provide an implementation of the source code needed for the `IterativeRepeater` and `AppendRepeater` classes. Please note that the `repeat1` and `repeat2` method names in this Code Fragment are not used in the provided source code because they are not descriptive enough. As such, you will need to ensure that you put the correct method in the correct class and, of course, adhere to Google's style guide for writing a Java program.
 
-It is worth pointing out that your textbook contains several useful insights into the pattern that you should follow when thinking about the running time of the two provided repeating algorithms.For instance, when describing the results from running an experiment, page 153 notes that "As the value of `n` is doubled, the running time of `repeat1` typically increases more than four fold." What does this suggest about the likely "worst-case time complexity" of the `repeat1` method?How can you apply this intuition to analyze the results that you collect when running an experiment?
+It is worth pointing out that your textbook contains several useful insights into the pattern that you should follow when thinking about the running time of the two provided repeating algorithms.For instance, when describing the results from running an experiment, page 153 notes that "As the value of `n` is doubled, the running time of `repeat1` typically increases more than four fold." What does this suggest about the likely "worst-case time complexity" of the `repeat1` method? How can you apply this intuition to analyze the results that you collect when running an experiment?
 
-The results from your experiments may not match those provided in the section below. Can you make a list of the reasons why the results from prior experiments may no tmatch your results? It is also possible that the results from your experiments may not suggest the correct worst-case time complexity. Again, can you make a list of the reasons why your theoretical understanding of the algorithm's performance may not match the likely worst-case time complexity suggested by your experiments? Along with practicing programming in Java and using the necessary software tools to run experiments, as part of this assignment you should exercise the scientific strategies that you must use to collect, organize, and interpret data about algorithm performance.
+The results from your experiments may not match those provided in the section below. Can you make a list of the reasons why the results from prior experiments may not match your results? It is also possible that the results from your experiments may not suggest the correct worst-case time complexity. Again, can you make a list of the reasons why your theoretical understanding of the algorithm's performance may not match the likely worst-case time complexity suggested by your experiments? Along with practicing programming in Java and using the necessary software tools to run experiments, as part of this assignment you should exercise the scientific strategies that you must use to collect, organize, and interpret data about algorithm performance.
 
 ## Expected Program Output
 
